@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 4: Sektor ng Paglilingkod</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+animation:fade 1s;
+}
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+.activity input{
+padding:10px;
+margin:5px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.lesson{
+display:none;
+line-height:1.6;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Activity:Hulaan ang mg salita upang mabuksan ang ikaapat na Aralin</h2>
+
+<input id="a1" placeholder="1">
+<input id="a2" placeholder="2">
+<input id="a3" placeholder="3">
+<input id="a4" placeholder="4">
+
+<br><br>
+
+<button onclick="check()">Suriin ang Sagot</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<div class="box lesson" id="lesson">
+
+<h1>Lesson 4: Sektor ng Paglilingkod</h1>
+
+<p>
+● Ang umaalalay sa buong yugto ng
+produksyon, distribusyon, kalakalan, at
+pagkonsumo ng mga produkto sa loob o
+labas ng bansa.<br>
+● Kilala rin ito bilang tersarya o ikatlong
+sektor ng ekonomiya matapos ang
+agrikultura at industriya.<br><br>
+</p>
+
+<h3>PORMAL NA SEKTOR SA ILALIM NG
+PAGLILINGKOD</h3><br>
+
+<p>
+● Transportasyon, komunikasyon, at
+mga imbakan<br>
+○ Mga serbisyong pampublikong
+sasakyan, mga paglilingkod ng
+telepono at mga pinapaupahang
+bodega.<br><br>
+● Kalakalan<br>
+○ Pagpapalitan ng iba’t-ibang
+produkto at serbisyo.<br><br>
+● Pananalapi<br>
+○ Serbisyong may kinalaman sa
+bangko, insurance, at
+pamumuhunan.<br>
+○ Nagbibigay ng tulong pinansyal
+gaya ng mga bangko,
+bahay-sanglaan, atbp.<br><br>
+● Paupahang bahay at Real Estate<br>
+○ Mga paupahan tulad ng mga
+apartment, mga developer ng
+subdivision, town house, at
+condominium.<br><br>
+● Paglilingkod ng Pampribado<br>
+○ Lahat ng mga paglilingkod na
+nagmumula sa pribadong sektor
+ay kabilang dito.<br><br>
+● Paglilingkod ng Pampubliko<br>
+○ Lahat ng paglilingkod na
+ipinagkakaloob ng pamahalaan.<br><br>
+
+<h3>MGA AHENSIYANG TUMUTULONG SA
+SEKTOR NG PAGLILINGKOD</h3><br>
+<p>
+● Department of Labor and
+Employment (DOLE)<br>
+○ Pangangalaga sa kapakanan ng
+mga manggagawang Pilipino,
+pagtataguyod ng maayos na
+oportunidad sa trabaho, at
+regulasyon ng mga patakaran
+sa paggawa sa bansa.<br><br>
+● Overseas Workers Welfare
+Administration (OWWA)<br>
+○ Tumitingin sa kapakanan ng
+mga Overseas Filipino Workers<br><br>
+● Philippine Overseas Employment
+Administration (POEA)<br>
+○ Isulong at paunlarin ang mga
+programa ukol sa
+paghahanapbuhay sa
+ibayong-dagat at pangalagaan
+ang kapakanan ng mga OFW.<br>
+○ Itinatag sa bisa ng Executive
+Order 797 (1982)<br><br>
+● Technical Education and Skills
+Development Authority (TESDA)<br>
+○ Hikayatin ang buong
+partisipasyon ng industriya,
+paggawa, mga lokal na
+pamahalaan, at mga
+institusyong teknikal at
+bokasyonal upang sanayin at
+paunlarin ang kasanayan ng
+mga manggagawa sa bansa.<br>
+○ Itinatag sa bisa ng R.A. 7796
+(1994)<br><br>
+● Professional Regulation Commission
+(PRC)<br>
+○ Nangangasiwa at
+sumusubaybay sa gawain ng
+mga manggagawang
+propesyonal upang matiyak ang
+kahusayan sa paghahatid ng
+mga serbisyong propesyonal sa
+bansa.<br><br>
+● Commission on Higher Education
+(CHED)<br>
+○ Nangangasiwa sa gawain ng
+mga pamantasan at kolehiyo sa
+bansa upang maitaas ang
+kalidad ng edukasyon sa
+mataas na antas.<br><br></p>
+
+<h3>SULIRANIN NG PAGLILINGKOD</h3><br>
+<p>-Unemployement<br>
+    *Structural Unemployement<br>
+    *Cyclical Unemployement<br>
+    *Seasonal Unemployement<br>
+-Job Mismatch<br>
+-Brain Drain<br>
+-Underemployement</p><br><br>
+
+<h3>MGA BATAS NA NANGANGALAGA SA
+KARAPATAN NG MANGGAGAWA</h3><br>
+<p>● Artikulo 94 - Holiday Pay<br>
+○ Tumutukoy sa bayad ng isang
+manggagawa na katumbas ng
+isang araw na sahod kahit hindi
+pumasok sa araw ng pista
+opisyal.<br><br>
+● Republic Act 6727 - Wage
+Rationalization Act<br>
+○ Nagsaad ng mga mandato para
+sa pagsasaayos ng
+pinakamababang pasahod o
+minimum wage<br><br>
+● Artikulo 91-93 - Premium Pay<br>
+○ Karagdagang bayad sa
+manggagawa sa loob ng walong
+oras na trabaho sa araw ng
+pahinga at special days<br><br>
+● Artikulo 87 - Overtime Pay<br>
+○ Karagdagang bayad sa
+pagtatrabaho na lampas sa 8
+oras sa isang araw<br><br>
+● Artikulo 86 - Night Shift Differential<br>
+○ Karagdagang bayad sa
+pagtatrabaho sa gabi na hindi
+bababa sa 10% ng kanyang
+regular na sahod sa bawat oras
+na ipinagtrabaho sa pagitan ng
+10PM - 6AM.<br><br>
+● Artikulo 96 - Service Charges<br>
+○ Lahat ng manggagawa sa isang
+establishment na kumokolekta
+ng service charges ay may
+karapatan sa isang pantay o
+tamang bahagi sa 85% na
+kabuuang koleksiyon<br><br>
+● Artikulo 95 - Service Incentive Leave<br>
+○ Bawat manggagawa na
+naglilingkod nang hindi
+kukulangin sa isang taon ay
+dapat magkaroon ng karapatan
+sa taunang service incentive
+leave ng limang araw na may
+bayad<br><br>
+● Republic Act 1161 - Maternity Leave<br>
+○ Ang bawat nagdadalang-taong
+manggagawa na nagtratrabaho
+sa pribadong sektor, kasal man
+o hindi, ay makakatanggap ng
+maternity leave.<br>
+○ Kasama ito sa benepisyong
+katumbas ng isang 100% na
+humigit kumulang na araw ng
+sahod ng manggagawa na
+nakapaloob sa batas<br><br>
+● Republic Act 8972 - Paternity Leave
+para sa mga solong magulang<br>
+○ Ipinagkaloob sa sinumang
+solong magulang o indibidwal
+na napag-iwanan ng
+responsibilidad ng pagiging
+magulang<br><br>
+● Republic Act 8187 - Paternity Leave<br>
+○ Maaaring magamit ng
+empleyadong lalaki sa unang
+apat na araw mula nang
+manganak ang legal na asawa
+na kaniyang kapisan<br>
+○ Pakikipagpisan: obligasyon ng
+asawang babae at asawang
+lalaki na magsama sa isang
+bubong<br><br>
+● Presidential Decree 851 - Thirteenth
+Month Pay<br>
+○ Nagbibigay sa mga empleyado
+nang hindi lalagpas ng ika-24 ng
+Disyembre bawat taon.<br><br>
+● Presidential Decree 626 - Benepisyo
+sa Employees Compensation
+Program<br>
+○ Isang compensation package sa
+mga manggagawa sa
+pampubliko at pambribadong
+sektor sakaling may
+kaganapang pagkakasakit na
+may kaugnayan sa trabaho<br><br></p>
+
+</div>
+
+
+<script>
+
+function check(){
+
+let w1=document.getElementById("a1").value.toLowerCase();
+let w2=document.getElementById("a2").value.toLowerCase();
+let w3=document.getElementById("a3").value.toLowerCase();
+let w4=document.getElementById("a4").value.toLowerCase();
+
+if(
+w1=="underemployement" &&
+w2=="unemployement" &&
+w3=="brain drain" &&
+w4=="job mismatch"
+){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan ang Lesson 4.";
+document.getElementById("lesson").style.display="block";
+
+}else{
+
+document.getElementById("result").innerHTML="May mali. Subukan muli.";
+
+}
+
+}
+
+</script>
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+
+</body>
+</html>

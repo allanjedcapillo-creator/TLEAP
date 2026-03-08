@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 6: Kalakalang Panlabas</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+animation:fade 1s;
+}
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+input{
+padding:10px;
+margin:5px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.lesson{
+display:none;
+animation:fade 1s;
+line-height:1.6;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Hulaan ang salita na may kinalaman sa Kalakalang Panlabas</h2>
+
+<input id="a1">
+<input id="a2">
+<input id="a3">
+
+<br><br>
+
+<button onclick="check()">Suriin ang Sagot</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<div class="box lesson" id="lesson">
+
+<h1>Lesson 6: Kalakalang Panlabas</h1>
+
+<p>
+● Palitan ng produkto at serbisyo sa
+pagitan ng mga bansa<br>
+● Ito ay nagaganap sapagkat walang
+bansa ang maaaring makatugon sa
+lahat ng kanyang pangangailangan
+ng walang tulong mula sa ibang
+bansa.<br>
+● Bilateral: 2 bansa (hal. U.S at PH)
+Bloc: Organisasyon at 1 bansa (hal.
+APEC at PH)<br>
+● EKSPORT (Pagluluwas):
+pagpapadala ng mga produkto at
+serbisyo sa ibang bansa<br>
+IMPORT (Pag-aangkat): pagbili ng
+kalakal mula sa ibang bansa<br><br></p>
+
+<h3>DAHILAN NG KALAKALANG PANLABAS</h3><br>
+
+<p>
+1. Pagkakaiba ng Teknolohiya<br>
+2. Pagkakaiba sa Pinagkukunang
+Yaman<br>
+3. Pagkakaiba sa Panlasa<br>
+4. Pagkakaiba sa Halaga ng
+Produksyon<br><br></p>
+
+<h3>PATAKARANG UMAAPEKTO SA
+KALAKALANG PANLABAS</h3><br><p>
+A. Taripa/Tariff:<br>
+- Buwis sa mga produktong
+inaangkat<br>
+- Nagpapataas ng presyo at
+nagpapababa ng benta ng
+inaangkat ng produkto<br>
+- Nagpapataw ng mataas na
+taripa pang mapigil ang
+pagpasok ng dayuhang
+produktong kalaban ng lokal
+na produkto.<br><br>
+B. Kota: (Quota)<br>
+- Maaaring limitahan (kotahan)
+ang pagpasok ng mga
+kalabang produkto<br><br>
+C. Subsidy:<br>
+- Tulong na ibinibigay ng
+gobyerno upang bumaba ang
+halaga ng produksyon ng
+mga lokal na produkto.<br><br></p>
+
+<h3>BATAYAN NG KALAKALANG PANLABAS
+(David Ricardo)</h3><br><p>
+● Absolute Advantage<br>
+○ Nakakalikha ng mas
+maraming bilang ng produkto
+gamit ang mas kaunting salik
+ng produksyon kumpara sa
+ibang bansa.<br><br>
+● Comparative Advantage<br>
+○ Ang bansa ay magkakaroon
+ng espesyalisasyon sa
+paglikha ng kalakal.<br>
+○ Kapag kaya ng bansa gawin
+ang kalakal ng mas efficient
+kumpara sa ibang bansa.<br>
+○ Hal. Cebu may comparative
+advantage sa pagluto ng Lechon<br><br></p>
+
+<h3>BALANCE OF TRADE (BOT)</h3><br><p>
+● Kalagayan ng kabayaran ng
+pagluluwas (export) at sa
+pag-aangkat (import).<br>
+● Trade Deficit: import > export
+Trade Surplus: import < export<br><br></p>
+
+<h3>KABUTIHAN NG
+PAKIKIPAGKALAKALAN</h3><br><p>
+● Mas maraming produkto ang
+mapagpipilian sa pamilihan.<br>
+● Napapataas nito ang kalidad ng mga
+produkto na nabibili sa pamilihan<br>
+● Nagkakaroon ng pagkakaunawaan
+ang mamamayan ng bansang
+nakikipagkalakalan.<br>
+● Lumalawak ang pamilihan ng mga
+produkto sa bansa.<br><br></p>
+
+<h3>DI- KABUTIHAN NG
+PAKIKIPAGKALAKALAN</h3><br><p>
+● Nagiging palaasa ang mga
+mamamayan sa produktong
+imported<br>
+● Hindi nalilinang ang pagkamalikhain
+ng mga mamamayan dahil umaasa
+na lamang sila sa mga produktong
+gawa sa ibang bansa<br>
+● Pagkawala ng sariling
+pagkakakilanlan bunga ng pagpasok
+ng dayuhang kultura sa lipunan<br><br></p>
+
+<h3>SAMAHANG PANDAIGDIGANG
+PANG-EKONOMIKO</h3><br><p>
+World Trade Organization<br>
+● Pinasinayaan at nabuo noong Enero
+1, 1995<br>
+● Samahang namamahala sa
+pandaigdigang patakaran ng
+sistema ng kalakalan o global
+trading system sa pagitan ng mga
+kasaping estado o member states<br><br>
+● LAYUNIN<br>
+○ Pagsusulong ng maayos na
+kalakalan sa pamamagitan
+ng pagpapababa ng hadlang
+sa kalakalan (trade barriers)<br>
+○ Plataporma para sa
+negosasyon at
+tulong-teknikal sa developing
+countries.<br>
+○ Paggamit ng trade sanction
+sa mga kasaping hindi
+sumusunod sa desisyon ng
+samahan<br><br>
+Asia-Pacific Economic Council
+(APEC)<br>
+● Isulong ang kaunlarang
+pang-ekonomiya at katiwasayan sa
+rehiyong Asia-Pacific<br>
+● Itinatag noong Nobyembre 1989<br>
+● LAYUNIN<br>
+○ Liberalisasyon ng
+pakikipagkalakalan at
+pamumuhunan<br>
+○ Pagpapabilis at pagpapadali
+ng pagnenegosyo<br>
+○ Pagtutulungang
+pang-ekonomiya at teknikal<br><br>
+Association of Southeast Asian Nations
+(ASEAN)<br>
+● Paunlarin at isulong ang malayang
+kalakalan sa bawat kasapi ng
+ASEAN pati ang mga bansang
+dialogue partner nito.<br>
+● Itinatag noong August 8, 1967<br>
+● LAYUNIN<br>
+○ Upang maging ganap ito,
+nabuo ang ASEAN Free
+Trade Area (AFTA) noong
+January 28, 1992, sa
+Singapore.<br>
+○ Nakabatay sa Common
+Effective Preferential Tariff
+(CEPT) na nag-aalis ng
+taripa at quota para sa mas
+malayang daloy ng produkto
+sa ASEAN.<br><br></p>
+<h3>PROGRAMANG NAGTATAGUYOD SA
+KALAKALANG PANLABAS</h3><br><p>
+a. Liberalisasyon sa Sektor ng
+Pagbabangko (R.A 7721)<br>
+- Pinapayagan ang dayuhang
+bangko na magtayo at
+magpatakbo ng sangay sa
+bansa.<br><br>
+b. Foreign Trade Services Corps
+(FTSC)<br>
+- Nagtataguyod ng mga lokal
+na produkto sa
+pandaigdigang pamilihan sa
+pamamagitan ng iba't ibang
+estratehiya.<br><br>
+c. Trade and Industry Information
+Center (TIIC)<br>
+- Nangangalap at
+nagpapalaganap ng datos at
+impormasyon tungkol sa
+ekonomiya, kalakalan, at
+industriya, pamahalaan, at
+kapakanan ng mamimili.<br><br>
+d. Center for Industrial
+Competitiveness<br>
+- Naglulunsad ng mga
+programa at pagsasanay
+upang mapahusay ang
+kakayahan at produktibidad
+ng manggagawa<br><br></p>
+<h3>KARAGDAGANG IMPORMASYON</h3><br><p>
+● Liberalisasyon:<br> pagtanggal ng
+kota at taripa sa
+pakikipagkalakalan.<br>
+● Deregulasyon:<br> pagtanggal ng
+pakikialam ng pamahalaan sa
+panlabas na kalakalan.<br>
+● Dolyar: <br>common currency sa
+pandaigdigang kalakalan.<br>
+● Pribatisasyon:<br> pagbebenta ng
+pag-aari ng gobyerno sa mga
+pribadong kompanya.<br>
+● Balance of Payment:<br>
+pandaigdigang batayan o sukatan
+para sa mga gawaing pangekonomiya.<br>
+● Dumping:<br> pagdagsa ng mga
+sobrang kalakal ng isang mas
+malakas na bansa tungo sa mas
+mahinang bansa.<br>
+● Kota/Quota:<br> ang takdang dami ng
+mga produkto na maaaring iluwas
+sa isang bansa.<br>
+● Balance of Payment: <br>talaang
+nagpapakita ng transaksyon ng
+isang bansa sa iba't ibang bahagi
+ng mundo.<br><br></p>
+
+
+
+</div>
+
+
+<script>
+
+function check(){
+
+let w1=document.getElementById("a1").value.toLowerCase();
+let w2=document.getElementById("a2").value.toLowerCase();
+let w3=document.getElementById("a3").value.toLowerCase();
+
+if(
+w1=="taripa" &&
+w2=="kota" &&
+w3=="subsidy"
+){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan ang Lesson 6.";
+document.getElementById("lesson").style.display="block";
+
+}else{
+
+document.getElementById("result").innerHTML="May mali. Subukan muli.";
+
+}
+
+}
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 5: Impormal na Sektor</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+animation:fade 1s;
+}
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+input{
+padding:10px;
+margin:5px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.lesson{
+display:none;
+animation:fade 1s;
+line-height:1.6;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Finish the Sentence</h2>
+
+<p>
+Ang impormal na sektor ay ang sektor ng ekonomiya na
+</p>
+
+<input id="ans1">
+<input id="ans2">
+
+<p>o salat sa mga dokumentong kailangan sa pagsasagawa ng gawaing pang-ekonomiya.</p>
+
+<button onclick="check()">Submit</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<div class="box lesson" id="lesson">
+
+<h1>Lesson 5: Impormal na Sektor</h1>
+
+<p>
+● Sektor ng ekonomiya na walang
+pormal o salat sa mga
+dokumentong kailangan sa
+pagsasagawa ng gawaing
+pang-ekonomiya<br>
+● Ang kita ng sektor na ito ay HINDI
+naisasama sa kabuuang Gross
+Domestic Product (GDP) ng bansa<br>
+● Paraan ng mamamayan upang
+magkaroon ng kabuhayan/dagdag
+kita sa tuwing panahon ng
+pangangailangan<br>
+● Ito ay nagdudulot rin ng
+pagkakalikha ng mga produkto at
+serbisyong tutugon sa ating mga
+pangangailangan<br>
+● Kilala rin sa tawag na Underground
+Economy<br><br></p>
+
+<h3>Halimbawa</h3>
+
+<ul>
+<li>Street vendors</li>
+<li>Pedicab drivers</li>
+<li>Sari-sari store</li>
+</ul>
+
+<h3>KATANGIAN NG IMPORMAL NA
+SEKTOR</h3><br>
+<p>1. Hindi nakarehistro sa pamahalaan<br>
+2. Hindi nagbabayad ng buwis mula sa
+kinita<br>
+3. Walang legal at pormal na
+balangkas mula sa pamahalaan
+para sa pagnenegosyo<br><br></p>
+
+<h3>IBA’T IBANG ANYO NG IMPORMAL NA
+SEKTOR</h3><br>
+<p>1. Mga gawaing maaaring
+isakatuparan lamang sa loob ng
+tahanan<br>
+2. Mga gawaing pansibiko,
+pagkakawanggawa, at panrelihiyon<br>
+3. Mga sari-sari stores, pagtitinda sa
+labas ng bahay o sidewalk,
+paglalako ng kalakal o serbisyo<br>
+4. Ilegal na gawain tulad ng
+pagnanakaw, pagbebenta ng ilegal
+na gamot, piracy, at prostitusyon<br><br></p>
+
+<h3>KAHALAGAHAN NG IMPORMAL NA
+SEKTOR</h3><br>
+<p>1. Sinasalo nito ang mga mamamayan
+na hindi makapasok bilang mga
+regular na empleyado sa isang
+kompanya.<br>
+2. Nagbibigay ng pagkakataon sa
+maraming Pilipino na
+makapaghanapbuhay<br>
+3. Nagsisilbing tagasalo ng mga
+mamamayang may mahigpit na
+pangangailangan<br>
+4. Malaki ang naitutulong sa mga
+konsyumer ang mga kalakal at
+serbisyong mula sa impormal na
+sektor dahil sa MURA nitong halaga<br><br></p>
+
+<h3>DAHILAN KUNG BAKIT PUMAPASOK
+SA IMPORMAL NA SEKTOR ANG MGA
+MAMAMAYAN</h3><br><p>
+1. Makaligtas sa pagbabayad ng
+buwis sa pamahalaan<br>
+2. Makaiwas sa masyadong mahaba
+at masalimuot na proseso ng
+pakikipagtransaksyon sa
+pamahalaan (bureaucratic red tape)<br>
+3. Kawalan ng regulasyon mula sa
+pamahalaan na kung saan ang mga
+batas at programa ay hindi
+naitutupad nang maayos<br>
+4. Makapaghanapbuhay nang hindi
+nangangailangan ng malaking
+kapital o puhunan<br>
+5. Malabanan ang matinding
+kahirapan<br><br></p>
+
+<h3>EPEKTO SA EKONOMIYA NG
+IMPORMAL NA SEKTOR</h3><br>
+<p>1. Pagbaba ng halaga ng nalilikom na
+buwis<br>
+2. Banta sa kapakanan ng mga
+mamimili<br>
+3. Paglaganap ng mga ilegal na gawain<br><br></p>
+
+
+<h3>MGA BATAS, PROGRAMA, AT
+PATAKARANG PANG-EKONOMIYA SA
+IMPORMAL NA SEKTOR</h3><br><p>
+1. Social Reform and Poverty
+Alleviation Act of 1997 (R.A 8425)<br>
+- Iahon sa kahirapan ang mga
+Pilipinong kabilang sa
+impormal na sektor<br>
+- Upang maisakatuparan ang
+mga probisyon ng batas
+na ito ay itinatag ang
+National Anti-Poverty
+Commission<br><br>
+2. Magna Carta of Women (R.A 9710)<br>
+- Inaalis ang lahat ng uri ng
+diskriminasyon laban sa
+kababaihan<br><br>
+3. Philippine Labor Code (P.D 422)<br>
+- Pangunahing batas ng bansa
+para sa mga manggagawa
+na itinatag noong Mayo 1,
+1974<br><br>
+4. Technical Education and Skills
+Development Act of 1994 (R.A
+7796)<br>
+- Layuning palakasin ang
+pakikiisa ng iba't ibang sektor
+upang mapabuti ang
+kasanayan at kalidad ng
+yamang tao sa bansa<br><br>
+5. Social Security Act of 1997 (R.A
+8282)<br>
+- Nagtatakda ng tungkulin ng
+estado na paunlarin at
+pangalagaan ang seguridad
+at kagalingang panlipunan ng
+mga manggagawa<br><br>
+6. National Health Insurance Act of
+1995 (R.A 7875)<br>
+- Nagtatag ng Philippine
+Health Insurance Corporation
+(PhilHealth) upang matiyak
+na may maayos at
+sistematikong kaseguruhang
+pangkalusugan ang lahat ng<br><br></p>
+
+<h3>MGA PROGRAMA PARA SA
+MAMAMAYAN</h3><br><p>
+1. Dole Integrated Livelihood
+Program (DILP)<br>
+- Nagbibigay ng pagsasanay
+at tulong pangkabuhayan
+para sa sariling hanapbuhay<br><br>
+2. Self-Employment Assistance
+Kaunlaran Program (SEA-K)<br>
+- Tumutulong sa mahihirap na
+pamilya sa pagsasanay at
+pagsisimula ng negosyo<br><br>
+3. Integrated Services for Livelihood
+Advancement of the Fisherfolks
+(ISLA)<br>
+- nagbibigay ng suporta sa
+pamamagitan ng
+pagsasanay at pagkakaloob
+ng kagamitan upang
+mapaunlad ang kanilang
+hanapbuhay<br><br>
+4. Cash-For-Work Program (CWP)<br>
+- Pansamantalang kita para sa
+nasalanta, kapalit ng
+trabahong
+pang-rehabilitasyon<br><br>
+5. Pantawid Pamilyang Pilipino
+Program (4Ps)<br>
+- Tulong-pinansyal sa
+pinakamahihirap na Pilipino
+kapalit ng pagsunod sa mga
+kondisyong pangkalusugan
+at pang-edukasyon ng
+kanilang mga anak<br><br></p>
+
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+
+function check(){
+
+let a=document.getElementById("ans1").value.toLowerCase();
+let b=document.getElementById("ans2").value.toLowerCase();
+
+if(a=="walang" && b=="pormal"){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan ang Lesson 5.";
+document.getElementById("lesson").style.display="block";
+
+}else{
+
+document.getElementById("result").innerHTML="Subukan muli.";
+
+}
+
+}
+
+</script>
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+
+</body>
+</html>

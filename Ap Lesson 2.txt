@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 2: Agrikultura</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+animation:fade 1s;
+}
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+input{
+padding:10px;
+margin:5px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.lesson{
+display:none;
+line-height:1.6;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h2>Activity: Guess the Word</h2>
+<p align="center">Hulaan ang mga salita na may kinalaman sa Agrikultura upang mabuksan ang Ikalawang Aralin.</p>
+
+<input id="a1" placeholder="1">
+<input id="a2" placeholder="2">
+<input id="a3" placeholder="3">
+<input id="a4" placeholder="4">
+
+<br><br>
+
+<button onclick="check()">Suriin ang sagot</button>
+<p id="result"></p>
+</div>
+
+<div class="box lesson" id="lesson">
+<h1>Lesson 2: Sektor ng Agrikultura</h1>
+
+<p>
+Ang agrikultura ay agham at sining ng pagpaparami ng halaman at hayop.
+Ito ay mahalagang sektor na nagbibigay pagkain at hanapbuhay sa maraming Pilipino.
+</p>
+
+<h3>Mga GAMPANIN ng mga sektor ng Agrikultura</h3><br>
+<p>● GAMPANIN NG PAGSASAKA<br>
+○ Pangunahing pananim:
+palay, mais, niyog, tubo,
+saging, pinya, atbp. na
+karaniwang kinokonsumo sa
+loob at labas ng bansa.<br>
+○ Tinatayang umabot ng
+₱797.731 bilyon ang kita
+mula sa pagsasaka<br>
+● GAMPANIN NG PANGINGISDA<br>
+○ Nauuri sa tatlo: komersiyal,
+munisipal, at aquaculture<br>
+○ Bahagi din nito ay ang
+panghuhuli ng hipon, sugpo<br>
+● GAMPANIN NG PAGHAHAYUPAN<br>
+○ May kinalaman sa mga
+hayop na itinaas para sa
+karne, hibla, gatas, itlog,
+atbp.<br>
+○ Kasama rito ang
+pang-araw-araw na
+pangangalaga, pumipili ng
+pag-aanak at pagpapalaki ng
+mga hayop<br>
+● GAMPANIN NG PAGGUGUBAT<br>
+○ Patuloy na nililinang ang
+ating mga kagubatan
+bagamat tayo ay nahaharap
+sa suliranin ng pagkaubos ng
+mga yaman nito<br>
+○ Pinagkukunan ng: plywood,
+tabla, troso, at veneer<br>
+○ Pinagkakakitaan din ang
+rattan, nipa, anahaw,
+kawayan, atbp.</p><br><br>
+<h3>KAHALAGAHAN NG AGRIKULTURA</h3><br>
+<p>1. Pinagmumulan ng pagkain<br>
+2. Pinagkukunan ng hilaw na
+materyales upang makabuo ng
+panibagong produkto<br>
+3. Nagkakaloob ng trabaho sa
+maraming Pilipino<br>
+4. Nagpapasok ng dolyar sa ating
+bansa<br>
+5. Pinagkukunan ng sobrang
+manggagawa patungo sa ibang
+sektor ng ekonomiya</p><br><br>
+
+<h3>SULIRANIN NG AGRIKULTURA</h3><br>
+<p>● Pagsasaka
+○ pagliit ng lupang sakahan<br>
+○ paggamit ng makabagong
+teknolohiya<br>
+○ kakulangan ng mga pasilidad
+at imprastraktura sa
+kabukiran<br>
+○ kakulangan ng suporta mula
+sa iba pang sektor<br>
+○ pagbibigay prayoridad sa
+sektor ng industriya,
+pagdagsa ng dayuhang
+kalakal<br>
+○ Climate Change<br>
+● Pangingisda<br>
+○ mapanirang operasyon ng
+malalaking komersiyal na
+mangingisda<br>
+○ epekto ng polusyon sa
+pangisdaan<br>
+○ lumalaking populasyon ng
+bansa<br>
+○ kahirapan sa hanay ng mga
+mangingisda<br>
+● Paghahayupan<br>
+○ pagkakaroon ng mga peste
+sa alagang hayop tulad ng
+baboy at manok<br>
+● Paggugubat<br>
+○ mabilis na pagkaubos ng
+mga likas na yaman</p><br><br>
+
+<h3>MGA PATAKARAN AT PROGRAMA
+HINGGIL SA PAGPAPAUNLAD SA
+SEKTOR NG AGRIKULTURA</h3><br><br>
+<p>PANAHON NA HINDI PA NASASAKOP
+ANG PILIPINAS<br>
+● Ang mga sinaunang Pilipino ay
+nakakapag-may-ari ng lupa sa
+pamamagitan ng pagiging unang
+nagtayo ng bahay.<br>
+● Wala pang titulo/rights noon<br>
+● Ang pinagbabasehan lamang ay
+salita ng bawat isa.<br><br>
+PANAHON NG KASTILA<br>
+● Encomienda System:<br>
+Encomienda - lupang gantimpala sa
+matapat na naglilingkod sa hari ng
+Espanya at mga taong tumulong sa
+pananakop sa Pilipinas.<br><br>
+PANAHON NG AMERIKANO<br>
+● Binili ng Amerika ang 160,000
+hectares ng lupa mula sa mga
+prayle para sa mga magsasaka.<br>
+● Land Registration Act ng 1902:<br>
+○ Nagkaroon ng mga titulo
+dahil dito.<br>
+○ Ito ay sistemang Torrens,
+kung saan ang mga titulo ng
+lupa ay ipinatalang lahat.<br>
+● Public Land Act ng 1902:<br>
+Pamamahagi ng mga lupaing
+pampubliko sa mga pamilya na
+nagbubungkal ng lupa<br><br>
+PANAHON NG KASARINLAN<br>
+● Batas Republika Blg. 1160:<br>
+Nagtatag sa National Resettlement
+and Rehabilitation Administration
+(NARRA)<br>
+● Batas Republika Blg. 1190 ng
+1954:<br>
+○ Bilang proteksyon laban sa
+mapang-abuso na may-ari ng
+lupa sa mga manggagawa.<br>
+○ Ito ay laban sa mga
+Absentee Landlord<br>
+● Agricultural Land Reform Code of
+1963:<br>
+○ Nagpalaya sa mabigat na
+trabaho ng magsasaka mula
+sa kanilang pagkaalipin sa
+utang at kahirapan.<br>
+○ Nilagdaan ni Diosdado
+Macapagal noong Agosto 8,
+1963<br>
+● Atas ng Pangulo Blg. 2 ng 1972:<br>
+Isailalim sa reporma sa lupa ang
+buong Pilipinas noong panahon ni
+Pangulong Marcos<br>
+● Atas ng Pangulo Blg. 27:<br> Bibilhin
+ng pamahalaan ang mga lupang
+sakahan na taniman ng palay/mais
+na lampas sa 7 ektaryang limitasyon
+at ipamamahagi ito sa mga
+magsasakang walang lupa.<br>
+● Batas Republika Blg. 6657 ng
+1988:<br>
+○ “Comprehensive Agrarian
+Reform Law (CARL)” na
+inaprubahan ni Corazon
+Aquino noong Hunyo 10,
+1988<br>
+○ Kabilang dito ang lahat ng
+publiko at pribadong lupang
+agrikultural at nakapaloob sa
+Comprehensive Agrarian
+Reform Program (CARP)
+<br>
+○ Ipinamamahagi ang lahat ng
+lupang agrikultural anuman
+ang tanim nito sa mga
+walang lupang magsasaka.<br>
+○ Matatapos sana sa 10 taon
+ngunit ginagawa pa rin ang
+batas hanggang ngayon.<br><br>
+MGA NAISAKATUPARAN UPANG
+MAIANGAT ANG KALAGAYANG
+PANGKABUHAYAN NG MGA
+MAGSASAKA (CARP, 2003)<br>
+1. Pagtatayo ng bahay-ugnayan
+(bagsakan) para sa mga
+magsasaka upang masigurong
+mayroon suportang maibigay sa
+kanila.<br>
+2. Pagtatayo ng gulayan para sa mga
+magsasaka.<br>
+3. Pagsisiguro na ang mga anak ng
+mga magsasaka ay makapag-aral
+kaya itinayo ang Pangulong
+Diosdado Macapagal Agrarian
+Reform Scholarship Program<br>
+4. Kalahi agrarian reform zones
+BATAS REPUBLIKA BLG. 6657 ng 1988
+Hindi sakop ng CARP ang:<br>
+● Liwasan at
+parke<br>
+● Mga gubat at
+reforestation
+area<br>
+● Mga palaisdaan<br>
+● Tanggulang
+pambansa<br>
+● Paaralan<br>
+● Simbahan<br>
+● Sementeryo<br>
+● Templyo<br>
+● Watershed,
+atbp.<br><br>
+PANGINGISDA<br>
+> Pagtatayo ng mga daungan<br>
+>Philippine Fisheries Code of 1998:<br>
+Paglilimita ng pamahalaan at naglalayon ng
+wastong paggamit sa yamang pangisdaan.<br>
+> Fishery Research:<br>
+Isang programa ng pamahalaan na isinasagawa
+upang masiguro ang pagpaparami at
+pagpapayaman sa mga yamang-tubig<br><br>
+PAGTOTROSO<br>
+> Community Livelihood Assistance Program
+(CLASP):<br> Paglilipat ng teknolohiya/pagtuturo sa
+mga mamamayan ng wastong paglinang sa mga
+likas na yaman.<br>
+> National Integrated Protected Areas
+System (NIPAS):<br> Maingatan at protektahan ang
+kagubatan<br>
+> Sustainable Forest Management Strategy:<br>
+Upang matakdaan ang permanente at sukat ng
+kagubatan<br>
+LANDBANK OF THE PHILIPPINES<br>
+> Upang magkaroon ng kaagapay ang mga
+magsasaka sa pagpapaunlad ng kanilang
+kabuhayan.<br><br>
+SANGAY NG PAMAHALAAN NA
+TUMUTULONG SA SEKTOR NG
+AGRIKULTURA<br>
+Department of Agriculture (DA):<br>
+Gumagabay sa mga magsasaka ukol sa
+makabagong teknolohiya at wastong paraan
+ng pagtatanim.<br>
+Bureau of Fisheries and Aquatic Resources
+(BFAR):<br> Sinisikap na paunlarin ang larangan
+ng pangingisda.<br>
+Bureau of Animal Industry (BAI):<br>
+Nangangasiwa sa larangan ng paghahayupan.<br>
+Ecosystem Research and Development
+Bureau (ERDB):<br> Nagsasagawa ng
+pananaliksik sa ecosystem upang magbigay
+ng siyentipikong batayan sa pangangalaga ng kapaligiran at yamang gubat</p>
+
+
+</div>
+
+<script>
+function check(){
+
+let w1=document.getElementById("a1").value.toLowerCase();
+let w2=document.getElementById("a2").value.toLowerCase();
+let w3=document.getElementById("a3").value.toLowerCase();
+let w4=document.getElementById("a4").value.toLowerCase();
+
+if(
+w1=="pagsasaka" &&
+w2=="pangingisda" &&
+w3=="paghahayupan" &&
+w4=="paggugubat"
+){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan ang Lesson 2.";
+document.getElementById("lesson").style.display="block";
+
+}
+else{
+document.getElementById("result").innerHTML="May mali. Subukan muli.";
+}
+
+}
+</script>
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+</body>
+</html>

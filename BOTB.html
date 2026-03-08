@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battle of the Bands</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:linear-gradient(270deg,#ff416c,#ff4b2b,#1e3c72);
+background-size:600% 600%;
+animation:bgMove 10s infinite alternate;
+}
+
+@keyframes bgMove{
+0%{background-position:0%}
+100%{background-position:100%}
+}
+
+.card{
+background:white;
+padding:25px;
+width:600px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,0.3);
+animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(40px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+img{
+width:100%;
+max-height:350px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+transition:0.4s;
+}
+
+img:hover{
+transform:scale(1.08);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Battle of the Bands</h1>
+
+<img src="botb.jpg">
+
+<p>
+Congrats to Grade 9 Your Really Rocked our world!!!(PADAYON,UMASAGINIP, AND KABANATA&#127928;&#127928;&#127908;&#129345;&#128293;&#128293;&#128293;)
+</p>
+
+</div>
+<!-- Go Back Button -->
+<button class="go-back" onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+<style>
+/* Style for the Go Back Button */
+.go-back{
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.go-back:hover{
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
+
+/* Active click effect */
+.go-back:active{
+    transform: translateY(-2px) scale(0.98);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+}
+</style>
+</body>
+</html>

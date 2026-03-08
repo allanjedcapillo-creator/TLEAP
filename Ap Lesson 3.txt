@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 3: Sektor ng Industriya</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+animation:fade 1s;
+}
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+.activity input{
+padding:10px;
+margin:5px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.lesson{
+display:none;
+line-height:1.6;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Activity: Guess the Word</h2>
+<p align="center">Hulaan ang mga salita na may kinalaman sa industriya upang mabuksan ang Ikatlong Aralin.</p>
+
+<div class="activity">
+<input id="a1" placeholder="1">
+<input id="a2" placeholder="2">
+<input id="a3" placeholder="3">
+<input id="a4" placeholder="4">
+</div>
+
+<br>
+
+<button onclick="check()">Suriin ang sagot</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<div class="box lesson" id="lesson">
+
+<h1>Lesson 3: Sektor ng Industriya</h1>
+
+<p>
+Ang sektor ng industriya ay tumutukoy sa pagproseso ng mga hilaw na materyales
+upang makagawa ng mga produktong ginagamit ng tao.
+</p>
+
+<h3>Sub-Sektor ng Industriya</h3><br>
+
+<p>
+● Pagmimina<br>
+○ Pagkuha at pagproseso ng mga
+yamang mineral (metal,
+di-metal, o enerhiya) upang
+gawing tapos na produkto o
+kabahagi ng isang yaring
+kalakal<br>
+○ Ang mismong produkto, hilaw
+man o naproseso ay nagbibigay
+ng kita para sa bansa<br>
+● Pagmamanupaktura<br>
+○ Paggawa ng mga produkto sa
+pamamagitan ng manual labor o
+ng mga makina<br>
+○ Nagkakaroon ng pisikal o
+kemikal na transpormasyon ang
+mga materyal o bahagi nito sa
+pagbuo ng mga bagong
+produkto<br>
+● Konstruksyon<br>
+○ Pagtatayo ng mga gusali,
+estruktura, at iba pang land
+improvements<br>
+● Utilities<br>
+○ Pagtugon ng mga pangunahing
+pangangailangan ng mga
+mamamayan tulad ng tubig,
+kuryente, at gas<br>
+○ Paglalatag ng mga
+imprastraktura at angkop na
+teknolohiya upang maihatid ang
+serbisyo</p><br><br>
+
+
+<h3>KAHALAGAHAN NG SEKTOR NG
+INDUSTRIYA SA PAMBANSANG
+KAUNLARAN</h3><br>
+
+<p>
+1. Tumatanggap ng mga produkto mula sa
+sektor ng agrikultura at ng serbisyo
+mula sa sektor ng paglilingkod<br>
+2. Nagkakaloob ng hanapbuhay sa
+maraming Pilipino<br>
+3. Nagpapasok ng dolyar sa bansa<br>
+4. Nakagagamit ng makabagong
+Teknolohiya<br>
+5. Gumagawa ng mga intermediate
+products (mga materyales o produkto na
+ginagamit sa paggawa ng iba pang
+produkto; hal. wheat - to make bread)<br><br>
+</p>
+
+<h3>PAGKAKAUGNAY NG AGRIKULTURA AT
+INDUSTRIYA<h3><br>
+<p>● Nagmumula sa agrikultura ang mga
+hilaw na sangkap na ginagamit sa
+pagbuo ng mga produkto ng industriya.<br>
+● Ang mga ginagamit na traktora,
+sasakyang pangingisda, at iba pang
+produkto ay mula sa industriya na
+ginagamit ng mga magsasaka upang
+magkaroon ng mataas na produksyon
+na magbibigay ng malaking kita sa
+sektor ng agrikultura.<br>
+● Ang dami ng lakas-paggawa sa mga
+mamimili ay nagpapakita ng lubos na
+pagtutulungan sa mga sector ng
+industriya at agrikultura.<br>
+● Ang agrikultura ang pinagmumulan ng
+pagkain ng mga industriya na siyang
+tumutugon sa mga pagkaing
+kinakailangan ng mga tao.<br>
+● Ang industriya ang nagbibigay ng
+malaking kontribusyon sa ekonomiya.<br>
+● Ang mga sangkap ay nagkakaroon ng
+transpormasyon dahil sa mga
+lakas–paggawa na gumagawa upang
+madagdagan ang halaga nito at lalo
+pang gumanda.<br><br></p>
+
+
+<h3>URI NG INDUSTRIYA</h3><br>
+1. Cottage Industry (Industriyang Pantahanan)<br>
+Kahulugan:<br> Ito ang pinakamaliit na uri ng industriya na karaniwang ginagawa sa loob ng tahanan o isang maliit na workshop. Ang mga produkto ay kadalasang yari sa kamay (handmade) at gumagamit ng mga lokal na materyales.<br>
+Katangian:<br>
+Manggagawa:<br> Kadalasang mga miyembro lamang ng pamilya o iilang tao ang nagtatrabaho (kadalasan ay kulang sa 10-20 manggagawa).<br>
+Kapital:<br> Napakababa ng puhunan at simple lang ang kagamitan.<br>
+Halimbawa:<br> Paggawa ng bagoong, paghahabi, paggawa ng basket, wood carving, at paggawa ng mga pandekorasyon. <br><br>
+
+2. Small Scale Industry (Maliit na Industriya)<br>
+Kahulugan:<br> Ito ay mga negosyong mas malaki sa cottage industry ngunit hindi aabot sa laki ng mga korporasyon. Gumagamit na ito ng makinarya o kuryente sa produksyon.<br>
+Katangian:<br>
+Manggagawa:<br> Karaniwang may 10 hanggang 99 na manggagawa.<br>
+Kapital:<br> Moderate o katamtaman ang kapital (kadalasan ay P1 milyon hanggang P10 milyon ang assets sa Pilipinas).<br>
+Lokasyon:<br> Karaniwang matatagpuan sa mga urban center o industrial estate.<br>
+Halimbawa: <br>bakery, paggawa ng sapatos, paggawa ng damit (garments), at paggawa ng muwebles.<br> <br>
+
+3. Large Scale Industry (Malaking Industriya)<br>
+Kahulugan: <br>Ito ang mga industriyang may malaking kapital, gumagamit ng advanced na teknolohiya o makinarya, at malawakan ang produksyon para sa lokal at internasyonal na merkado.<br>
+Katangian:<br>
+Manggagawa:<br> Binubuo ng daan-daan o libu-libong manggagawa.<br>
+Kapital:<br> Napakalaking puhunan ang kailangan para sa mga makinarya at planta.<br>
+Produksyon:<br> Mass production o maramihang paggawa ng produkto.<br>
+Halimbawa:<br> Steel plants, planta ng sasakyan (automobile), oil refineries, at malalaking textile mills.<br>
+
+
+
+
+
+
+
+
+<h3>SULIRANIN NG INDUSTRIYA</h3><br>
+<p>1. Pondo at kompetisyon<br>
+2. Paghina ng lokal na industriya<br>
+3. Demand<br>
+</p><br><br>
+
+<h3>MGA PATAKARANG PANG-EKONOMIYA</h3><br>
+<p>● Filipino First Policy:<br>
+○ Nagsimula sa programang
+FIlipino Muna ni Pangulong
+Carlos P. Garcia<br>
+○ Naglalayong bigyan ng higit na
+malaking partisipasyon ang mga
+Pilipino sa pagpapatakbo ng
+ekonomiya<br>
+● Oil Deregulation Law (R.A. 8479):<br>
+○ Nagbukas ng kompetisyon sa
+industriya ng langis<br>
+○ Ang pamilihan ang nagdidikta
+sa presyo ng petrolyo, at hindi
+ito maaaring pakialaman ng
+gobyerno<br>
+● Patakaran ng Microfinancing:<br>
+○ Serbisyong pinansiyal na
+isinasagawa ng mga bangko na
+magpautang na mayroong
+mababang interes sa mahihirap
+na pamilya<br>
+● Patakaran sa Online Business:<br>
+○ Online shopping o retailing<br>
+○ Online intermediary service<br>
+○ Online advertisement o
+classified ads<br>
+○ Online auction<br>
+● Retail Nationalization Act of 1964
+(R.A. 1180):<br>
+○ Sampung taong palugit sa ga
+dayuhang capitalist<br>
+○ Pilipino na may korporasyon o
+asosasyon lamang ang nasa
+kalakalang pagtitingi<br>
+● Retail Trade Liberalization Act of 2000
+(R.A. 8762)<br>
+○ Nagpawalang-bisa sa RA 1180<br>
+○ Binuksan ang kalakalang
+pagtitingi sa mga dayuhan<br>
+● Build-Operate-Transfer (BOT) (R.A.
+6957)<br>
+○ Binibigyan ng karapatang
+bumuo ng mga pasilidad sa
+kanilang mga sariling pondo at
+palakarin ito sa
+humigit-kumulang na 25 taon<br>
+● Asset Privatization Trust (APT)<br>
+○ Itinatag upang mapangasiwaan
+ang pagbebenta ng mga
+korporasyong pagmamay-ari ng
+pamahalaan sa pribadong
+pagmamay-ari.<br>
+○ Pinasimula ni Corazon Aquino</p><br><br>
+
+<h3>SANGAY NG PAMAHALAAN NA
+TUMUTULONG SA SEKTOR NG
+INDUSTRIYA</h3><br>
+<p>Department of Trade and Industry (DTI):<br>
+Tuwirang tumitingin at nangangalaga sa
+larangan ng industriya at pangangalakal.<br>
+Board of Investments (BOI):<br> Tinutulungan
+ang mga nagsisimulang industriya at
+humihikayat sa mga dayuhang
+mamumuhunan na magnegosyo sa bansa.<br>
+Philippine Economic Zone Authority
+(PEZA):<br> Tumutulong sa mga namumuhunan
+na maghanap ng lugar upang pagtayuan ng
+negosyo.<br>
+Securities and Exchange Commission
+(SEC):<br> Nagtatala at nagrerehistro sa mga
+kompanya sa bansa.<br><br></p>
+<h3>KARAGDAGANG IMPORMASYON</h3><br>
+<p>Industriyalisasyon:<br> paggamit ng mga
+makinarya at makabagong kagamitan sa
+paglinang ng mga industriya at pinagkukunang
+yaman<br>
+Sekundaryang sektor:<br> ang kumakatawan sa industriya</p>
+
+
+
+</div>
+
+
+<script>
+
+function check(){
+
+let w1=document.getElementById("a1").value.toLowerCase();
+let w2=document.getElementById("a2").value.toLowerCase();
+let w3=document.getElementById("a3").value.toLowerCase();
+let w4=document.getElementById("a4").value.toLowerCase();
+
+if(
+w1=="pagmimina" &&
+w2=="pagmamanupaktura" &&
+w3=="konstruksyon" &&
+w4=="utilities"
+){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan ang Lesson 3.";
+document.getElementById("lesson").style.display="block";
+
+}else{
+
+document.getElementById("result").innerHTML="May mali. Subukan muli.";
+
+}
+
+}
+
+</script>
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+
+</body>
+</html>

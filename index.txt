@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive E-Portfolio</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#fff9e6;
+}
+
+/* GAME SCREEN */
+
+#gameScreen{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#6a0dad;
+color:white;
+text-align:center;
+}
+
+.word{
+background:#ffd700;
+color:#6a0dad;
+padding:12px 18px;
+margin:10px;
+display:inline-block;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+animation:float 3s infinite ease-in-out;
+transition:transform .3s;
+}
+
+.word:hover{
+transform:scale(1.2) rotate(5deg);
+}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-10px)}
+100%{transform:translateY(0)}
+}
+
+/* MAIN SITE */
+
+#mainSite{
+display:none;
+animation:fadeIn 1s;
+}
+
+@keyframes fadeIn{
+from{opacity:0}
+to{opacity:1}
+}
+
+/* HEADER */
+
+header{
+background:#6a0dad;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* TABS */
+
+.tabs{
+display:flex;
+justify-content:center;
+background:#ffd700;
+flex-wrap:wrap;
+}
+
+.tabs button{
+background:none;
+border:none;
+padding:15px 18px;
+font-weight:bold;
+cursor:pointer;
+color:#6a0dad;
+transition:.3s;
+}
+
+.tabs button:hover{
+background:#f4c900;
+transform:scale(1.05);
+}
+
+/* TAB CONTENT */
+
+.tabcontent{
+display:none;
+padding:20px;
+animation:fadeIn .5s;
+}
+
+.section{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 6px rgba(0,0,0,0.2);
+}
+
+/* BUTTONS */
+
+.action{
+margin:6px;
+padding:10px 14px;
+background:#6a0dad;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+transition:.3s;
+}
+
+.action:hover{
+transform:scale(1.1);
+background:#4d089c;
+}
+
+footer{
+background:#6a0dad;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- GAME -->
+
+<div id="gameScreen">
+
+<h1>🎮 Find the Odd Term</h1>
+<p>Click the term that does NOT belong with JavaScript.</p>
+
+<div>
+<span class="word" onclick="checkWord('js')">Function</span>
+<span class="word" onclick="checkWord('js')">Array</span>
+<span class="word" onclick="checkWord('js')">Variable</span>
+<span class="word" onclick="checkWord('odd')">Pointer</span>
+</div>
+
+<p id="gameMessage"></p>
+
+</div>
+
+<!-- MAIN WEBSITE -->
+
+<div id="mainSite">
+
+<header>
+<h1>My Interactive E-Portfolio</h1>
+<p>ICT,Araling Panlipunan, and Filipino</p>
+</header>
+
+<div class="tabs">
+
+<button onclick="openTab('welcome')">Welcome</button>
+<button onclick="openTab('ict')">ICT Outputs</button>
+<button onclick="openTab('codes')">ICT Codes</button>
+<button onclick="openTab('ap')">AP Lessons</button>
+<button onclick="openTab('events')">Events</button>
+<button onclick="openTab('noli')">Noli Me Tangere Video</button>
+
+</div>
+
+<!-- WELCOME -->
+
+<div id="welcome" class="tabcontent" style="display:block">
+<div class="section">
+<h2>Welcome to My 4th Quarter E-Portfolio</h2>
+<p>"Make your time last with your classmates because time flies quickly and you never know when you might get another chance to meet them again in the future"</p>
+</div>
+</div>
+
+<!-- ICT OUTPUTS -->
+
+<div id="ict" class="tabcontent">
+<div class="section">
+
+<h2>3rd Quarter Outputs</h2>
+
+<button class="action" onclick="showICT('3rd Quarter Output 1')">Output 1</button>
+<button class="action" onclick="showICT('3rd Quarter Output 2')">Output 2</button>
+<button class="action" onclick="showICT('3rd Quarter Output 3')">Output 3</button>
+
+<h2>4th Quarter Lessons</h2>
+
+<button class="action" onclick="showICT('4th Quarter Lesson 1')">Lesson 1</button>
+<button class="action" onclick="showICT('4th Quarter Lesson 2')">Lesson 2</button>
+<button class="action" onclick="showICT('4th Quarter Lesson 3')">Lesson 3</button>
+<button class="action" onclick="showICT('4th Quarter Lesson 4')">Lesson 4</button>
+
+<p id="ictOutput"></p>
+
+</div>
+</div>
+
+<!-- ICT CODES -->
+
+<div id="codes" class="tabcontent">
+<div class="section">
+
+<h2>Codes for 3rd Quarter Outputs</h2>
+
+<button class="action">Output 1 Code</button>
+<button class="action">Output 2 Code</button>
+<button class="action">Output 3 Code</button>
+
+<h2>Codes for 4th Quarter Lessons</h2>
+
+<button class="action">Lesson 1 Code</button>
+<button class="action">Lesson 2 Code</button>
+<button class="action">Lesson 3 Code</button>
+<button class="action">Lesson 4 Code</button>
+
+</div>
+</div>
+
+<!-- AP LESSONS -->
+
+<div id="ap" class="tabcontent">
+<div class="section">
+
+<h2>Araling Panlipunan Lessons</h2>
+
+<button class="action" onclick="goToLesson1()">Aralin 1</button>
+
+<script>
+function goToLesson1(){
+    window.location.href = "ap-lesson1.html";
+}
+</script>
+<button class="action" onclick="goToLesson2()">Aralin 2</button>
+
+<script>
+function goToLesson2(){
+    window.location.href = "Ap Lesson 2.html";
+}
+</script>
+<button class="action" onclick="goToLesson3()">Aralin 3</button>
+
+<script>
+function goToLesson3(){
+    window.location.href = "Ap Lesson 3.html";
+}
+</script>
+<button class="action" onclick="goToLesson4()">Aralin 4</button>
+
+<script>
+function goToLesson4(){
+    window.location.href = "Ap Lesson 4.html";
+}
+</script>
+<button class="action" onclick="goToLesson5()">Aralin 5</button>
+
+<script>
+function goToLesson5(){
+    window.location.href = "Aralin Lesson 5.html";
+}
+</script>
+<button class="action" onclick="goToLesson6()">Aralin 6</button>
+
+<script>
+function goToLesson6(){
+    window.location.href = "Ap Lesson 6.html";
+}
+</script>
+
+
+</div>
+</div>
+
+<!-- EVENTS -->
+
+<div id="events" class="tabcontent">
+<div class="section">
+
+<h2>3rd Quarter Events</h2>
+
+<button class="action">Christmas Party</button>
+<button class="action">VPOP</button>
+<button class="action">MVP</button>
+
+<h2>4th Quarter Events</h2>
+
+<button class="action">BOTB</button>
+<button class="action">Noli Me Tangere Play</button>
+<button class="action">Miting de Avance</button>
+
+</div>
+</div>
+
+<!-- NOLI VIDEO -->
+
+<div id="noli" class="tabcontent">
+<div class="section">
+
+<h2>Noli Me Tangere Presentation Video</h2>
+
+
+<video width="500" controls>
+<source src="noli-video.mp4" type="video/mp4">
+</video>
+
+</div>
+</div>
+
+<footer>
+<p> 2026 My Student E-Portfolio (P.S Photo Creds:Jade Imperial)</p>
+</footer>
+
+</div>
+
+<script>
+
+/* GAME */
+
+function checkWord(type){
+
+if(type==="odd"){
+
+document.getElementById("gameMessage").innerHTML="Correct! Portfolio unlocked.";
+
+setTimeout(function(){
+document.getElementById("gameScreen").style.display="none";
+document.getElementById("mainSite").style.display="block";
+},1000);
+
+}
+
+else{
+document.getElementById("gameMessage").innerHTML="Try again.";
+}
+
+}
+
+/* TABS */
+
+function openTab(tab){
+
+let contents=document.getElementsByClassName("tabcontent");
+
+for(let i=0;i<contents.length;i++){
+contents[i].style.display="none";
+}
+
+document.getElementById(tab).style.display="block";
+
+}
+
+/* ICT BUTTON OUTPUT */
+
+function showICT(name){
+document.getElementById("ictOutput").innerHTML="You selected: "+name;
+}
+
+</script>
+
+</body>
+</html>

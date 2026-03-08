@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aralin 1: Pambansang Kaunlaran</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("16598.jpg") center/cover no-repeat fixed;
+color:white;
+}
+
+/* container */
+
+.box{
+background:rgba(0,0,0,0.75);
+width:85%;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(6px);
+}
+
+/* title */
+
+h1,h2{
+text-align:center;
+text-shadow:0 0 10px cyan;
+}
+
+/* crossword */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(10,40px);
+gap:5px;
+justify-content:center;
+margin:20px;
+}
+
+.grid input{
+width:40px;
+height:40px;
+text-align:center;
+font-size:20px;
+border:none;
+border-radius:5px;
+text-transform:uppercase;
+}
+
+.grid input:focus{
+background:#c8f7ff;
+transform:scale(1.1);
+}
+
+/* button */
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+/* lesson locked */
+
+.lesson{
+display:none;
+animation:fadeIn 1s;
+line-height:1.6;
+}
+
+ul{
+margin-left:20px;
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ACTIVITY -->
+
+<div class="box">
+
+<h2>Activity 1: Hulaan ang mga Salita na may Kinalaman Tungkol sa Pambansang Kaunlaran</h2>
+
+<p align="center">Sagutan ang aktibidad upang mabuksan ang Aralin 1.</p>
+
+<div class="grid" id="grid"></div>
+
+<button onclick="checkPuzzle()">Suriin ang Sagot</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<!-- LESSON -->
+
+<div class="box lesson" id="lesson">
+
+<h1>Aralin 1: Pambansang Kaunlaran</h1>
+
+<h2>Pambansang Kaunlaran</h2>
+
+<p>
+Isang estado ng bansa kung saan tinatamasa ng mga mamamayan, lalo na ng pinakamababang uri,
+ang pagbabago sa ekonomiya at pamumuhay.
+</p>
+
+<h2>Mga Konsepto ng Pambansang Kaunlaran</h2>
+
+<ul>
+
+<li><b>Pagbabago</b>
+<ul>
+<li>Paraan upang maging iba o naiiba</li>
+<li>Proseso ng pag-iiba o pagkakaroon ng kaibahan sa ekonomiya at lipunan</li>
+</ul>
+</li>
+
+<li><b>Pag-unlad</b>
+<ul>
+<li>Pagbabago mula sa mababa tungo sa mataas na antas ng pamumuhay</li>
+<li>Pag-angat, pagsulong, o paglago sa pangkalahatang pamumuhay</li>
+<li>Isang aktibong proseso at ang pagsulong ay produkto nito (Fajardo)</li>
+<li>Ang kaunlaran ay matatamo lamang kung mapauunlad ang yaman ng buhay ng mga tao kaysa sa yaman ng ekonomiya nito (Amartya Sen)</li>
+</ul>
+</li>
+
+<li><b>Pagsulong</b>
+<ul>
+<li>Pag-usad tungo sa layunin o goal</li>
+<li>Pagpapaunlad ng kakayahan, kaalaman, at abilidad upang makasabay sa agos ng buhay</li>
+</ul>
+</li>
+
+<li><b>Ebolusyon</b>
+<ul>
+<li>Pagbabago sa mga katangian sa loob ng mahabang panahon</li>
+<li>Anuman ang unang dumating ay mas mabuti sa sinundang panahon</li>
+</ul>
+</li>
+
+</ul>
+
+<h2>Dalawang Konsepto ng Pag-unlad (Todaro & Smith, 2012)</h2>
+
+<ul>
+<li><b>Tradisyunal</b> – pagtamo ng patuloy na pagtaas ng income per capita.</li>
+<li><b>Makabago</b> – kumakatawan sa malawakang pagbabago sa buong sistemang panlipunan.</li>
+</ul>
+
+<h2>Mga Salik na Maaaring Makatulong sa Pagsulong ng Ekonomiya</h2>
+
+<ul>
+<li>Likas na Yaman</li>
+<li>Yamang-tao</li>
+<li>Kapital</li>
+<li>Teknolohiya at Inobasyon</li>
+</ul>
+
+<h2>Mga Palatandaan ng Pag-unlad</h2>
+
+<ul>
+<li>Makatwiran at dinamikong kaayusan ng panlipunan</li>
+<li>Kasaganaan at kasarinlan</li>
+<li>Kalayaan sa kahirapan</li>
+<li>Hanapbuhay para sa lahat</li>
+<li>Umaangat na istandard ng pamumuhay</li>
+<li>Mainam na uri ng buhay para sa lahat</li>
+<li>Sapat na mga lingkurang panlipunan</li>
+<li>Katarungang panlipunan</li>
+</ul>
+
+<h2>Sukatan ng Kaunlaran ng Bansa ayon sa United Nations</h2>
+
+<p>
+Bukod sa GDP at GNP, ginagamit ang <b>Human Development Index (HDI)</b>
+bilang panukat ng pag-unlad ng isang bansa.
+</p>
+
+<p>
+Kabilang dito ang:
+</p>
+
+<ul>
+<li>Kalusugan</li>
+<li>Edukasyon</li>
+<li>Antas ng pamumuhay</li>
+</ul>
+
+<h2>Antas ng Kaunlaran ng Bansa</h2>
+
+<ul>
+
+<li><b>Maunlad na Bansa (Developed Economies)</b>
+<ul>
+<li>Mataas na GDP</li>
+<li>Mataas na income per capita</li>
+<li>Mataas na HDI</li>
+</ul>
+</li>
+
+<li><b>Umuunlad na Bansa (Developing Economies)</b>
+<ul>
+<li>Pinauunlad pa ang mga industriya</li>
+<li>Hindi pantay ang GDP at HDI</li>
+</ul>
+</li>
+
+<li><b>Papaunlad na Bansa (Underdeveloped Economies)</b>
+<ul>
+<li>Kulang sa industriyalisasyon</li>
+<li>Mababang GDP at HDI</li>
+</ul>
+</li>
+
+</ul>
+
+<h2>Mga Tungkulin Para sa Pag-unlad ng Bansa</h2>
+
+<ul>
+<li>Suportahan ang pamahalaan</li>
+<li>Sundin at igalang ang batas</li>
+<li>Alagaan ang kapaligiran</li>
+<li>Tumulong sa pagpuksa ng korapsyon</li>
+<li>Maging produktibo</li>
+<li>Tangkilikin ang produktong Pilipino</li>
+<li>Magtipid ng enerhiya</li>
+<li>Makilahok sa gawaing pansibiko</li>
+</ul>
+
+<h2>Mga Gampanin ng Mamamayan sa Pag-unlad ng Bansa</h2>
+
+<ul>
+
+<li><b>Mapanagutan</b>
+<ul>
+<li>Tamang pagbabayad ng buwis</li>
+<li>Pakikialam sa mga isyu ng lipunan</li>
+</ul>
+</li>
+
+<li><b>Maabilidad</b>
+<ul>
+<li>Pagsali sa kooperatiba</li>
+<li>Pagnenegosyo</li>
+</ul>
+</li>
+
+<li><b>Maalam</b>
+<ul>
+<li>Tamang pagboto</li>
+<li>Pakikilahok sa mga proyektong pangkaunlaran</li>
+</ul>
+</li>
+
+<li><b>Makabansa</b>
+<ul>
+<li>Pakikilahok sa pamamahala ng bansa</li>
+<li>Pagtangkilik sa produktong Pilipino</li>
+</ul>
+</li>
+
+</ul>
+
+</div>
+
+
+<script>
+
+/* crossword */
+
+const layout=[
+
+"##########",
+"PAGUNLAD",
+"##########",
+"##PAGBABAGO#",
+"##########",
+"EBOLUSYON#",
+"#########",
+"##PAGSULONG#",
+"##########",
+"##########"
+
+];
+
+const grid=document.getElementById("grid");
+
+layout.forEach(row=>{
+row.split("").forEach(letter=>{
+
+if(letter=="#"){
+const block=document.createElement("div");
+grid.appendChild(block);
+}
+else{
+const input=document.createElement("input");
+input.maxLength=1;
+input.dataset.answer=letter;
+grid.appendChild(input);
+}
+
+});
+});
+
+function checkPuzzle(){
+
+let correct=0;
+const inputs=document.querySelectorAll("#grid input");
+
+inputs.forEach(input=>{
+
+if(input.value.toUpperCase()==input.dataset.answer){
+input.style.background="#9cff9c";
+correct++;
+}
+else{
+input.style.background="#ffb3b3";
+}
+
+});
+
+if(correct==inputs.length){
+
+document.getElementById("result").innerHTML="🎉 Tama! Nabuksan na ang Aralin 1.";
+
+document.getElementById("lesson").style.display="block";
+
+window.scrollTo({
+top:document.getElementById("lesson").offsetTop,
+behavior:"smooth"
+});
+
+}
+else{
+document.getElementById("result").innerHTML="May mali pa. Subukan ulit.";
+}
+
+}
+
+</script>
+  <!-- Go Back Button -->
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // This takes the user to the previous page
+        }
+    </script>
+
+
+</body>
+</html>
